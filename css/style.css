@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url(./golden-mouse-cursor-icon-logo-mr7zNvC-600.jpg),auto;
+}
+.a{
+    height: 100vh;
+    width: 80%;
+    margin-left: 10%;
+    padding: 20px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+    "a1 a2 a2 a4"
+    "a1 a6 a7 a8"
+    "a9 a10 a11 a12"
+    "a13 a14 a15 a16"
+    "a17 a18 a19 a20"
+    "a21 a22 a23 a24"
+    "a25 a26 a27 a28"
+    ;
+}
+.a > div{
+    display: grid;
+    place-items: center;
+    border: 2px;
+    box-shadow: 0 0 5px black;
+    padding: 20px;
+    border-radius: 2px;
+    font-style: italic;
+    background: aquamarine;
+}
+.a > div>img{
+    width: 100%;
+    border-radius: 5px;
+}
+.a>div>p{
+    text-align: center;
+    margin-top: 300px;
+}
+.a > div>button{
+    margin-bottom: 300px;
+    height: 30px;
+    width: 100px;
+    border: 1px;
+    border-radius: 5px;
+    background: black;
+    color: aliceblue;
+}
+.a>div>:nth-child(1){
+    grid-area: a1;
+}
+.a>div>:nth-child(2){
+    grid-area: a2;
+}
+.a>div>:nth-child(3){
+    grid-area: a3;
+}
+.a>div>:nth-child(4){
+    grid-area: a4;
+}
+.a>div>:nth-child(5){
+    grid-area: a5;
+}
+.a>div>:nth-child(6){
+    grid-area: a6;
+}
+.a>div>:nth-child(7){
+    grid-area: a7;
+}
+.a>div>:nth-child(8){
+    grid-area: a8;
+}
+.a>div>:nth-child(9){
+    grid-area: a9;
+}
+.a>div>:nth-child(10){
+    grid-area: a10;
+}
+.a>div>:nth-child(11){
+    grid-area: a11;
+}
+.a>div>:nth-child(12){
+    grid-area: a12;
+}
+.a>div>:nth-child(13){
+    grid-area: a13;
+}
+.a>div>:nth-child(14){
+    grid-area: a14;
+}
+.a>div>:nth-child(15){
+    grid-area: a15;
+}
+.a>div>:nth-child(16){
+    grid-area: a16;
+}
+.a>div>:nth-child(17){
+    grid-area: a17;
+}
+.a>div>:nth-child(18){
+    grid-area: a18;
+}
+.a>div>:nth-child(19){
+    grid-area: a19;
+}
+.a>div>:nth-child(20){
+    grid-area: a20;
+}
+.a>div>:nth-child(21){
+    grid-area: a21;
+}
+.a>div>:nth-child(22){
+    grid-area: a22;
+}
+.a>div>:nth-child(23){
+    grid-area: a23;
+}
+.a>div>:nth-child(24){
+    grid-area: a24;
+}
+.a>div>:nth-child(25){
+    grid-area: a25;
+}
+.a>div>:nth-child(26){
+    grid-area: a26;
+}
+.a>div>:nth-child(27){
+    grid-area: a27;
+}
+.a>div>:nth-child(28){
+    grid-area: a28;
+}
+.a >:hover{
+    transform: scale(1.1);
+}
+
+
